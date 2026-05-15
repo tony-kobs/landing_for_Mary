@@ -1,0 +1,20 @@
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 120px;
+  cursor: pointer;
+}
+
+.logo-img {
+  width: min(375px, 100%);
+}
