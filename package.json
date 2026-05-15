@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "landing_for_Mary",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/my-template-for-projects/",
+    "build": "vite build --base=/landing_for_Mary/",
     "preview": "vite preview"
   },
   "devDependencies": {
