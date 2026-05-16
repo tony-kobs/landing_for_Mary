@@ -18,3 +18,52 @@ header .container {
 .logo-img {
   width: min(375px, 100%);
 }
+
+.webview-banner {
+  display: none;
+  align-items: center;
+  gap: 12px;
+  background: #fff8f5;
+  border-bottom: 1px solid rgba(192, 107, 127, 0.25);
+  padding: 10px 16px;
+}
+
+.webview-hint-text {
+  font-family: 'Jost', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: #7a4455;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.webview-steps {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+
+.webview-step {
+  background: rgba(192, 107, 127, 0.12);
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 12px;
+  color: #c06b7f;
+}
+
+.webview-arrow {
+  font-size: 12px;
+  color: #a06070;
+}
+
+.webview-close {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #a06070;
+  cursor: pointer;
+  padding: 4px;
+  flex-shrink: 0;
+}
