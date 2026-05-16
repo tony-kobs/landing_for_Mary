@@ -1,10 +1,52 @@
 <!doctype html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MaryBra|Hello!</title>
 
+    <!-- SEO -->
+    <title>Mary Bra Shop — жіноча білизна Acousma та Balaloum</title>
+    <meta
+      name="description"
+      content="Mary Bra Shop — широкий асортимент якісної жіночої білизни брендів Acousma та Balaloum. Замовляйте в Instagram, Viber або TikTok."
+    />
+    <meta
+      name="keywords"
+      content="жіноча білизна, Acousma, Balaloum, Mary Bra Shop, купити білизну"
+    />
+    <meta name="author" content="Anton Kobys" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://tony-kobs.github.io/landing_for_Mary/"
+    />
+
+    <!-- Open Graph (соцмережі) -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://tony-kobs.github.io/landing_for_Mary/"
+    />
+    <meta
+      property="og:title"
+      content="Mary Bra Shop — жіноча білизна Acousma та Balaloum"
+    />
+    <meta
+      property="og:description"
+      content="Широкий асортимент якісної жіночої білизни. Замовляйте в Instagram або Viber."
+    />
+    <meta
+      property="og:image"
+      content="https://tony-kobs.github.io/landing_for_Mary/images/logo-marybra.png"
+    />
+    <meta property="og:locale" content="uk_UA" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon_32.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,48 +58,82 @@
   <body>
     <header>
       <div class="container">
-        <a class="logo-link" href=""
-          ><img class="logo-img" src="./images/logo-marybra.png"
-        /></a>
+        <a class="logo-link" href="" aria-label="Mary Bra Shop — на головну">
+          <img
+            class="logo-img"
+            src="./images/logo-marybra.png"
+            alt="Логотип Mary Bra Shop"
+            width="120"
+            height="120"
+          />
+        </a>
       </div>
-      <div class="webview-banner" id="webviewBanner">
-        <i class="icon-info"></i>
+      <div
+        class="webview-banner"
+        id="webviewBanner"
+        role="alert"
+        aria-live="polite"
+      >
+        <i class="icon-info" aria-hidden="true"></i>
         <div class="webview-hint-text">
           Щоб перейти по посиланням — відкрий у браузері
           <div class="webview-steps">
             <span class="webview-step">··· три крапки</span>
-            <span class="webview-arrow">→</span>
+            <span class="webview-arrow" aria-hidden="true">→</span>
             <span class="webview-step">Відкрити в браузері</span>
           </div>
         </div>
-        <button class="webview-close" id="webviewClose" aria-label="закрити">
+        <button
+          class="webview-close"
+          id="webviewClose"
+          aria-label="Закрити підказку"
+        >
           ✕
         </button>
       </div>
     </header>
     <main>
-      <section class="hero-section">
+      <section class="hero-section" aria-label="Головна інформація">
         <div class="container">
           <h1 class="hero-title">Mary Bra Shop</h1>
           <p class="hero-subtitle">Жіноча білизна Acousma та Balaloum</p>
           <p class="hero-number">
-            <svg class="icon-tel" width="24" height="24">
+            <svg
+              class="icon-tel"
+              width="24"
+              height="24"
+              aria-hidden="true"
+              focusable="false"
+            >
               <use href="./images/icons.svg#icon-tel"></use>
             </svg>
-            <a class="tel-link" href="tel:+380685951036">+38(068)595-10-36</a>
+            <a
+              class="tel-link"
+              href="tel:+380685951036"
+              aria-label="Зателефонувати: +38 068 595 10 36"
+              >+38(068)595-10-36</a
+            >
           </p>
         </div>
       </section>
-      <section class="find-us-link">
+      <section class="find-us-link" aria-label="Знайти нас у соцмережах">
         <div class="container">
-          <ul class="link-list">
+          <ul class="link-list" role="list">
             <li class="link-item">
               <a
                 class="link"
                 href="https://www.instagram.com/mary_bra_shop?igsh=MWhienNtdXY4czJiaA%3D%3D&utm_source=qr"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Перейти в Instagram Mary Bra Shop (відкриється в новій вкладці)"
               >
-                <svg class="icon-social" width="24" height="24">
+                <svg
+                  class="icon-social"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
                 Instagram
@@ -68,8 +144,16 @@
                 class="link"
                 href="https://invite.viber.com/?g2=AQBRvn5sVgtGwlY3C9ulA0ZFx2EP5n4ael8yAkVSs0dC3Vy7AI4bl6mrPsCb2mMs&utm_source=ig&utm_medium=social&utm_content=link_in_bio&lang=uk"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Написати в Viber Mary Bra Shop (відкриється в новій вкладці)"
               >
-                <svg class="icon-social" width="24" height="24">
+                <svg
+                  class="icon-social"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
                   <use href="./images/icons.svg#icon-viber"></use>
                 </svg>
                 Viber
@@ -80,8 +164,16 @@
                 class="link"
                 href="https://www.tiktok.com/@_mary_bra?_r=1&_t=ZS-95JH7flgLWq"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Дивитись трансляції Mary Bra Shop в TikTok (відкриється в новій вкладці)"
               >
-                <svg class="icon-social" width="24" height="24">
+                <svg
+                  class="icon-social"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
                   <use href="./images/icons.svg#icon-tiktok"></use>
                 </svg>
                 Трансляції
@@ -90,63 +182,73 @@
           </ul>
         </div>
       </section>
-      <section class="catalog-section">
+      <section class="catalog-section" aria-label="Каталог білизни">
         <div class="container">
-          <h2 class="catalog-title">Широкий ассортимент якісної білизни</h2>
-          <ul class="catalog-list">
+          <h2 class="catalog-title">Широкий асортимент якісної білизни</h2>
+          <ul class="catalog-list" role="list">
             <li class="catalog-item">
               <img
                 class="catalog-img"
                 src="./images/img1.jpg"
+                alt="Жіноча білизна — фото 1"
                 width="200"
                 height="200"
+                loading="lazy"
               />
             </li>
             <li class="catalog-item">
               <img
                 class="catalog-img"
                 src="./images/img3.jpg"
+                alt="Жіноча білизна — фото 2"
                 width="200"
                 height="200"
+                loading="lazy"
               />
             </li>
             <li class="catalog-item">
               <img
                 class="catalog-img"
                 src="./images/img5.jpg"
+                alt="Жіноча білизна — фото 3"
                 width="200"
                 height="200"
+                loading="lazy"
               />
             </li>
             <li class="catalog-item">
               <img
                 class="catalog-img"
                 src="./images/img4.jpg"
+                alt="Жіноча білизна — фото 4"
                 width="200"
                 height="200"
+                loading="lazy"
               />
             </li>
             <li class="catalog-item">
               <img
                 class="catalog-img"
                 src="./images/img2.jpg"
+                alt="Жіноча білизна — фото 5"
                 width="200"
                 height="200"
+                loading="lazy"
               />
             </li>
             <li class="catalog-item">
               <img
                 class="catalog-img"
                 src="./images/img7.jpg"
+                alt="Жіноча білизна — фото 6"
                 width="200"
                 height="200"
+                loading="lazy"
               />
             </li>
           </ul>
         </div>
       </section>
-
-      <!-- Loads the specified .html file -->
     </main>
     <footer class="footer">
       <div class="container">
@@ -157,6 +259,7 @@
             target="_blank"
             rel="noopener noreferrer"
             class="footer-link"
+            aria-label="LinkedIn профіль Anton Kobys (відкриється в новій вкладці)"
             >Anton Kobys</a
           >
         </p>
