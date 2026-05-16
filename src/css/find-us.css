@@ -1,15 +1,34 @@
 .link-list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
 .link-item {
-  background-color: rgb(199, 117, 80);
-  color: white;
-  border-radius: 10px;
-  padding: 5px;
+  background-color: transparent;
+  border: 1px solid rgba(192, 107, 127, 0.45);
+  border-radius: 14px;
+  padding: 12px 8px;
   cursor: pointer;
+  box-shadow:
+    0 4px 12px rgba(192, 107, 127, 0.18),
+    0 1px 4px rgba(61, 26, 38, 0.1);
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
+
+.link-item:hover,
+.link-item:focus,
+.link-item:active {
+  background-color: rgba(212, 132, 154, 0.15);
+  border-color: #c06b7f;
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 20px rgba(192, 107, 127, 0.28),
+    0 2px 6px rgba(61, 26, 38, 0.12);
 }
 
 .link {
@@ -17,16 +36,34 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-
-  font-size: 14px;
+  gap: 8px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7a4455;
+  text-decoration: none;
 }
 
-.fa-brands {
+.icon-social {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
-  fill: whitesmoke;
+  width: 22px;
+  height: 22px;
+  fill: #c06b7f;
+  transition: fill 0.3s ease;
+}
+
+.link-item:hover .icon-social,
+.link-item:focus .icon-social,
+.link-item:active .icon-social {
+  fill: #3d1a26;
+}
+
+.link-item:hover .link,
+.link-item:focus .link,
+.link-item:active .link {
+  color: #3d1a26;
 }

@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MaryBra|Hello!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Great+Vibes&family=Jost:wght@300;400&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -26,7 +26,14 @@
         <div class="container">
           <h1 class="hero-title">Mary Bra Shop</h1>
           <p class="hero-subtitle">Жіноча білизна Acousma та Balaloum</p>
-          <p>💕</p>
+          <p class="hero-number">
+            <svg class="icon-tel" width="24" height="24">
+              <use href="./images/icons.svg#icon-tel"></use>
+            </svg>
+            <a class="tel-link" href="tel:+380685951036" target="_blank"
+              >+38(068)595-10-36</a
+            >
+          </p>
         </div>
       </section>
       <section class="find-us-link">
@@ -37,15 +44,23 @@
                 class="link"
                 href="https://www.instagram.com/mary_bra_shop?igsh=MWhienNtdXY4czJiaA%3D%3D&utm_source=qr"
                 target="_blank"
-                ><i class="fa-brands fa-instagram"></i>Каталог</a
               >
+                <svg class="icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+                Instagram
+              </a>
             </li>
             <li class="link-item">
               <a
                 class="link"
                 href="https://invite.viber.com/?g2=AQBRvn5sVgtGwlY3C9ulA0ZFx2EP5n4ael8yAkVSs0dC3Vy7AI4bl6mrPsCb2mMs&utm_source=ig&utm_medium=social&utm_content=link_in_bio&lang=uk"
                 target="_blank"
-                ><i class="fa-brands fa-viber"></i>Менеджер
+              >
+                <svg class="icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-viber"></use>
+                </svg>
+                Viber
               </a>
             </li>
             <li class="link-item">
@@ -53,13 +68,12 @@
                 class="link"
                 href="https://www.tiktok.com/@_mary_bra?_r=1&_t=ZS-95JH7flgLWq"
                 target="_blank"
-                ><i class="fa-brands fa-tiktok"></i>Трансляції</a
               >
-            </li>
-            <li class="link-item">
-              <a class="link" href="" target="_blank"
-                ><i class="fa-brands fa-telegram"></i>Співпраця</a
-              >
+                <svg class="icon-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-tiktok"></use>
+                </svg>
+                Трансляції
+              </a>
             </li>
           </ul>
         </div>
@@ -122,7 +136,20 @@
 
       <!-- Loads the specified .html file -->
     </main>
-
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-text">
+          Created by
+          <a
+            href="https://www.linkedin.com/in/antony-kobys"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-link"
+            >Anton Kobys</a
+          >
+        </p>
+      </div>
+    </footer>
     <script type="module" src="./main.js"></script>
   </body>
 </html>

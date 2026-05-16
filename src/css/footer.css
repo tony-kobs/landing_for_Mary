@@ -1,0 +1,32 @@
+.footer {
+  padding: 24px 16px;
+  text-align: center;
+  border-top: 1px solid rgba(192, 107, 127, 0.18);
+  margin-top: 40px;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: #a06070;
+  margin: 0;
+}
+
+.footer-link {
+  font-family: 'Great Vibes', cursive;
+  font-size: 18px;
+  color: #c06b7f;
+  text-decoration: underline;
+  letter-spacing: 0.03em;
+  margin-left: 4px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #3d1a26;
+}
